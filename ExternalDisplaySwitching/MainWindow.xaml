@@ -1,0 +1,17 @@
+﻿<Window x:Class="ExternalDisplaySwitching.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExternalDisplaySwitching"
+        mc:Ignorable="d"
+        Title="External Display Switching" Height="300" Width="350">
+    <StackPanel Margin="10">
+        <TextBlock x:Name="TB_OSVersion"/>
+        <Button Content="拡張する" Padding="5" Margin="5" Click="Button_Click"/>
+        <Button Content="複製する" Padding="5" Margin="5" Click="Button_Click_1"/>
+        <Button Content="プライマリ表示" Padding="5" Margin="5" Click="Button_Click_2"/>
+        <Button Content="セカンダリ表示" Padding="5" Margin="5" Click="Button_Click_3"/>
+
+    </StackPanel>
+</Window>
